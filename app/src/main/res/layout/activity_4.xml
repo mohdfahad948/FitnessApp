@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+  <ScrollView
+      android:id="@+id/scrollView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#121212"
+      tools:ignore="InvalidId">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="43dp"
+          android:text="Workout Nutritions"
+          android:textColor="#F8F7F5"
+          android:textSize="67dp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="240dp"
+          android:layout_marginTop="53dp"
+          android:src="@drawable/ee" />
+
+      <TextView
+          android:layout_width="359dp"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="1dp"
+          android:layout_marginTop="43dp"
+          android:text=" Diet Plan"
+          android:textColor="@color/white"
+          android:textSize="67dp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="615dp"
+          android:src="@drawable/hh" />
+
+      <TextView
+          android:layout_width="320dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="19dp"
+          android:text="Simple meal plannig"
+          android:textColor="@color/white"
+          android:textSize="54dp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="410dp"
+          android:layout_marginTop="53dp"
+          android:src="@drawable/cc" />
+
+      <TextView
+          android:layout_width="320dp"
+          android:layout_height="141dp"
+          android:layout_marginLeft="22dp"
+          android:layout_marginTop="74dp"
+          android:text="Meal Plan   in a day."
+          android:textColor="@color/white"
+          android:textSize="57dp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="452dp"
+          android:layout_marginTop="13dp"
+          android:src="@drawable/qq" />
+
+
+    </LinearLayout>
+  </ScrollView>
+  </RelativeLayout>
